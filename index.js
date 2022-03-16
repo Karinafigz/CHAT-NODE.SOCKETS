@@ -14,7 +14,7 @@ document.write(mostrar);
 
 const imprimirFrase =  nombre =>'Hola' + nombre;
 let nombre ='Karina Figueroa';
-console.log(imprimirFrase(nombre));*/
+console.log(imprimirFrgit addase(nombre));*/
 
 
 const imprimirF =nombre => `Hola ${nombre}`;
