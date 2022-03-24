@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    
+</head>
+<body>
+    <form id="Menú" name="" >
+        <label >Número 1</label>
+        <input type="number" name="" id="value 1" autofocus
+        placeholder ="Inserta un número">
+        <button  style="background-color:rgb(0, 255, 42); border-color:rgb(7, 7, 7); color:rgb(10, 0, 0)" onclick ="Borrar();">Borrar</button>
+        <br>
+
+        <br>
+        <label>Número 2</label>
+        <input type="number" name="" id="value 2"
+        placeholder="Inserta un número">
+
+        <br>
+        <br>
+        <button  style="background-color:rgb(133, 7, 252); border-color:rgb(4, 194, 252); color:rgb(241, 246, 247)" type="button" onclick="sumar();">Sumar</button>
+        <button  style="background-color:rgb(192, 7, 248); border-color:rgb(2, 200, 250); color:rgb(241, 246, 247) "type="button" onclick="restar();">Restar</button>
+        <button  style="background-color:rgb(191, 3, 248); border-color:rgb(4, 252, 231); color:rgb(241, 246, 247)" type="button" onclick="dividir();">Dividir</button>
+        <button  style="background-color:rgb(220, 8, 240); border-color:rgb(4, 216, 253); color:rgb(241, 246, 247)" type="button" onclick="multiplicar();">Multuplicar</button>
+
+        <p> El resultado de tu operación selecionada es:<span id="result"></span></p>
+
+       </form>
+    <script type="text/javascript" src="js/Operaciones.js">
+    </script>
+</body>
+</html>
